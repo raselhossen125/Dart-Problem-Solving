@@ -7,9 +7,9 @@ findIndex(["Red", "blue", "Blue", "Green"], "blue") ➞ 1
 void main() {
   var Animal = ['Lion', 'Horse', 'Snake', 'Tiger'];
 
-  print(getData(Animal, 'Snake'));
+  print(findIndex(Animal, 'Snake'));
 }
 
-getData(List ar, String value) {
+findIndex(List ar, String value) {
   return ar.indexOf(value);
 }
