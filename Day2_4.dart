@@ -10,7 +10,7 @@ void main() {
   print(evenOrOdd(numbers));
 }
 
-evenOrOdd(List numbers) {
+String evenOrOdd(List numbers) {
   double num = 0;
   numbers.forEach((element) {
     num += element;

@@ -9,7 +9,11 @@ void main() {
   print(spaceMeOut(name));
 }
 
-String spaceMeOut(String name) {
-  String result = '"${name}"';
-  return result;
+spaceMeOut(String name) {
+  List result = [];
+
+  for (var res in name.split("")) {
+    result.add(res + " ");
+  }
+  return '"${result.join().trimRight()}"';
 }
