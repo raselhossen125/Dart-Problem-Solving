@@ -8,6 +8,7 @@ void main() {
   List totalUpload = ["Sept 22", "Sept 21", "Oct 15"];
 
   print(uploadCount(totalUpload, "Sept"));
+  print("Solver by Rasel Hossen");
 }
 
 int uploadCount(List month, String value) {

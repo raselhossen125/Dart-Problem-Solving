@@ -9,6 +9,7 @@ void main() {
 
   print(forbidenLetter("r", words));
   print(forbidenLetter("R", words));
+  print("Solver by Rasel Hossen");
 }
 
 bool forbidenLetter(var char, List word) {

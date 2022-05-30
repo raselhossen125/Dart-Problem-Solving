@@ -8,6 +8,7 @@ void main() {
   List numbers = [10,20,30];
 
   print(evenOrOdd(numbers));
+  print("Solver by Rasel Hossen");
 }
 
 String evenOrOdd(List numbers) {
