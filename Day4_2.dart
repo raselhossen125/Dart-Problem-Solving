@@ -8,9 +8,18 @@ word
 word("nine") ➞ 9
 Notes:!-All numbers will be single digit positive integers. 
 */
+void main() {
+  print(word("one"));
+  print(word("two"));
+  print(word("nine"));
+  print("Solved by Rasel Hossen");
+}
 
-// void main() {
-//   print(word("one"));
-// }
-
-// word(String number) =>;
+word(String number) {
+  List numbers = ['zero','one','two','three','four','five','six','seven','eight','nine'];
+  for (int i = 0; i <= numbers.length; i++) {
+    if (number==numbers[i]) {
+      return i;
+    }
+  }
+}

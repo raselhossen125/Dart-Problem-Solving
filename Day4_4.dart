@@ -11,7 +11,4 @@ void main() {
   print(capSpace("stayIndoors"));
 }
 
-capSpace(String name) {
-  name.split('');
-  return name;
-}
+capSpace(String name) => name;
