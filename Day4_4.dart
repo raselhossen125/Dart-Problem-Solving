@@ -11,4 +11,11 @@ void main() {
   print(capSpace("stayIndoors"));
 }
 
-capSpace(String name) => name;
+capSpace(String str) {
+  List value = str.split('');
+  List result = [];
+  value.where((element) => element.toString().toUpperCase() == element);
+  result.add(" $value");
+  result.add(value);
+  return value;
+}
